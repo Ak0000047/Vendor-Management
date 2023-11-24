@@ -1,0 +1,61 @@
+
+      # VENDOR 
+
+
+#create vendor(POST)
+"http://127.0.0.1:8000/api/vendors/"
+
+#list vendor(GET)
+"http://127.0.0.1:8000/api/vendors/"
+
+#delete vendor(DELETE)
+"http://127.0.0.1:8000/api/vendors/<id>/"
+
+#update vendor(PUT)
+"http://127.0.0.1:8000/api/vendors/<id>/"
+
+
+#list vendor performace(GET)
+'http://127.0.0.1:8000/api/vendors/<int:pk>/performance/'
+
+    #   PURCHASE ORDER"
+
+#create purchaseorder(POST)
+"http://127.0.0.1:8000/api/purchase_orders/"
+
+#list purchaseorder(GET)
+"http://127.0.0.1:8000/api/purchase_orders/"
+
+#delete purchaseorder(DELETE)
+"http://127.0.0.1:8000/api/purchase_orders/<id>/"
+
+#update purchaseorder(PUT)
+"http://127.0.0.1:8000/api/purchase_orders/<id>/"
+
+
+
+
+     #    HISTORICAL PERFORMANCE 
+    
+
+
+#create historical performance(POST)
+"http://127.0.0.1:8000/api/historical_performance/"
+
+#list historical performance(GET)
+"http://127.0.0.1:8000/api/historical_performance/"
+
+#delete historical performance(DELETE)
+"http://127.0.0.1:8000/api/historical_performance/<id>/"
+
+#update historical performance(PUT)
+"http://127.0.0.1:8000/api/historical_performance/<id>/"
+
+
+#       AcknowledgePurchaseOrder
+
+
+#update historical performance(PUT)
+"http://127.0.0.1:8000/api/purchase_orders/<int:pk>/acknowledge/"
+
+
